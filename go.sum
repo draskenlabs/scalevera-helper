@@ -1,0 +1,4 @@
+github.com/draskenlabs/drasken-go-lexer v1.0.0 h1:YlayTN4qhsggUfJuo4zdkfXosOEDJutzxzUF2OYlFbI=
+github.com/draskenlabs/drasken-go-lexer v1.0.0/go.mod h1:X0vbOoMHrBr+0DZEd+XrEILw5/2ZsO828NAZ6KARm5U=
+github.com/draskenlabs/drasken-logger v1.0.0 h1:cBxDiQ0DyHic2lKcAxJiBbLK+PaB4p1j+pF0h9nKBaM=
+github.com/draskenlabs/drasken-logger v1.0.0/go.mod h1:+6FL1gcnVBw92QdBIzSLx+QfLI/z82mpncx06tZ1YYY=
