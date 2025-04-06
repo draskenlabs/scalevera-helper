@@ -1,4 +1,4 @@
-module github.com/draskenlabs/scalevera/helper
+module github.com/draskenlabs/scalevera-helper
 
 go 1.24.2
 
