@@ -1,4 +1,4 @@
-package helper
+package schema
 
 import (
 	"fmt"
@@ -24,6 +24,7 @@ var keywords = []string{
 	"module",
 	"resource",
 
+	"requirements",
 	"require",
 	"provider",
 	"source",
@@ -84,8 +85,16 @@ func (n *ScaleveraNode) String() string {
 }
 
 // Helpers for more core and semantic functions
+func (n *ScaleveraNode) IsRequirementsNode() bool {
+	return n.IsKeyword() && strings.TrimSpace(n.Token.Literal) == "requirements"
+}
+
 func (n *ScaleveraNode) IsRequireNode() bool {
 	return n.IsKeyword() && strings.TrimSpace(n.Token.Literal) == "require"
+}
+
+func (n *ScaleveraNode) IsProviderNode() bool {
+	return n.IsKeyword() && strings.TrimSpace(n.Token.Literal) == "provider"
 }
 
 func (n *ScaleveraNode) IsGlobalNode() bool {

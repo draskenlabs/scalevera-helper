@@ -1,4 +1,4 @@
-package helper
+package schema
 
 type ScaleveraGlobal map[string]interface{}
 
